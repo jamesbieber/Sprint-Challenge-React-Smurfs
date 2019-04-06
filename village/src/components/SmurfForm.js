@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 
+import "./smurfform.css";
+
 class SmurfForm extends Component {
   constructor(props) {
     super(props);
@@ -34,6 +36,8 @@ class SmurfForm extends Component {
       age: "",
       height: ""
     });
+
+    window.location.reload();
   };
 
   handleInputChange = e => {

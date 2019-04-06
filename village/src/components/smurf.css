@@ -1,0 +1,21 @@
+.Smurf {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  margin-bottom: 5%;
+}
+
+.Smurf h3 {
+  color: #88ccff;
+}
+
+.Smurf strong {
+  color: white;
+}
+
+.Smurf p {
+  color: white;
+}

@@ -1,3 +1,40 @@
 .App {
-  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App nav {
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2%;
+}
+
+.App h1 {
+  font-size: 4rem;
+  color: #88ccff;
+  margin-bottom: 1%;
+}
+
+.App nav .nav-links {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.App nav .nav-links .link {
+  font-size: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.App nav .nav-links .link:hover {
+  color: #88ccff;
 }

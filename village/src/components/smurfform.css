@@ -1,0 +1,29 @@
+.SmurfForm {
+  margin-top: 2%;
+}
+
+.SmurfForm form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SmurfForm form input {
+  margin-bottom: 5%;
+}
+
+.SmurfForm form button {
+  width: 100%;
+  padding: 3% 0 3% 0;
+  font-size: 16px;
+  color: white;
+  background-color: #88ccff;
+  border: 1px solid white;
+}
+
+.SmurfForm form button:hover {
+  color: #88ccff;
+  background-color: grey;
+  border: 1px solid white;
+}
